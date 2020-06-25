@@ -61,6 +61,9 @@ def all_supplies_in_holidays(holiday_hash)
     puts  "#{holiday.to_s.split(" ").map {|x| x.capitalize}} #{supply.join(" ")}"
   end
 end
+
+all_supplies_in_holidays(holiday_supplies)
+
 end
 # iterate through holiday_hash and print items such that your readout resembles:
   # Winter:
